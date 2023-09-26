@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Apply styles to the body and html elements */
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: rgb(238, 250, 0);
+        }
+        header h2{
+            font-size: x-large;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+
+        nav li {
+            font-size: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007acc;
+        }
+
+        /* Content section styles */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .section {
+            flex: 0 1 calc(20% - 20px); 
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #007acc; /* Color for subheadings */
+        }
+        #Lakshay {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    text-decoration: none; /* Added text-decoration */
+    color: #fff; /* Changed the button color to white */
+    background-color: #007acc; /* Changed the background color to a shade of blue */
+    padding: 10px 20px; /* Added padding to make the button larger and more clickable */
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    transition: background-color 0.3s; /* Added a transition for a hover effect */
+}
+
+#Lakshay:hover {
+    background-color: #0055a5; /* Change the background color on hover */
+}
+
+    </style>
+</head>
+<body>
+  
+    
+    <a href="#" id="scrollToTopButton" style="display: none; 
+    position: fixed; bottom: 20px; right: 20px; background-color: #51ac5a;
+     color: #fff; border: none; border-radius: 50%; padding: 10px 20px;
+      cursor: pointer; text-decoration: none;">Scroll to Top</a>
+
+    
+    <script>
+        var scrollToTopButton = document.getElementById("scrollToTopButton");
+
+        scrollToTopButton.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 200) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        });
+    </script>
+<header>
+    <h1 class="Mridul">Educational Qualifications</h1>
+    <a id="Lakshay" href="../index.html">HOME</a>
+</header>
+<section id="Education" class="section">
+    
+    <section id="research-papers" class="section">
+
+    <ul>
+    
+            <li>Ph.D., Electronics and Telecommunication Engg., Jadavpur University, India, 2010</li>
+            <br>
+            <li>M.E., Software Engineering (Gold Medalist), Jadavpur University, India, 2006</li>
+            <br>
+            <li>B.E., Information Technology (Gold Medalist), Vidyasagar University, India, 2004</li>
+          
+          
+    </ul>
+</section>
+</section>

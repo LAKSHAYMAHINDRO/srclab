@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Apply styles to the body and html elements */
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: rgb(238, 250, 0);
+        
+        }
+        #Lakshay{
+            position: absolute;
+            left: 10px;
+            top: 30px;
+
+        }
+        header h2{
+            font-size: x-large;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+        }
+
+        nav li {
+            font-size: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #007acc;
+        }
+
+        /* Content section styles */
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .section {
+            flex: 0 1 calc(20% - 20px); 
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #007acc; /* Color for subheadings */
+        }
+        button{
+            background-color: #ccc;
+            height: 10px;
+            width: 10px;
+        }
+        #Lakshay {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    text-decoration: none; /* Added text-decoration */
+    color: #fff; /* Changed the button color to white */
+    background-color: #007acc; /* Changed the background color to a shade of blue */
+    padding: 10px 20px; /* Added padding to make the button larger and more clickable */
+    border-radius: 5px; /* Added border-radius for rounded corners */
+    transition: background-color 0.3s; /* Added a transition for a hover effect */
+}
+
+#Lakshay:hover {
+    background-color: #0055a5; /* Change the background color on hover */
+}
+
+    </style>
+</head>
+<body>
+<header>
+    <h1 class="Mridul">People</h1>
+
+    <a id="Lakshay" href="../index.html">HOME</a>
+
+</header>
+<body>
+    <!-- The anchor element with href="#" will scroll to the top when clicked -->
+    <a href="#" id="scrollToTopButton" style="display: none; position: fixed; bottom: 20px; right: 20px; background-color: #007bff; color: #fff; border: none; border-radius: 50%; padding: 10px 20px; cursor: pointer; text-decoration: none;">Scroll to Top</a>
+
+    <script>
+        var scrollToTopButton = document.getElementById("scrollToTopButton");
+
+        scrollToTopButton.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        window.addEventListener("scroll", function() {
+            if (window.scrollY > 200) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        });
+    </script>
+<section id="Students" class="section">
+        <h2>Post-doctoral Fellow</h2>
+        <section id="People" class="section">
+    
+        <ul>  
+            <li>Dr. Dileep Gopalakrishnan (Area of research: Studies on effect of different electrical stimulations on neurorehabilitation.)</li> 
+        </ul>
+              
+    </section>
+    
+<section id="Students" class="section5">
+    <h2>Graduated Ph.D. Students</h2>
+    <section id="People" class="section">
+
+    <ul>
+        <li>Mr. Dalchand Ahirwar (Title of thesis: Multimodal Biomarkers for Identification of Stroke, 2023.) (Co-Guide: Prof. Dheeraj Khurana, PGIMER Chandigarh)</li><br>
+        <li>Mr. L.V.R. Prasadaraju (Title of thesis: Fault tolerant multi modal safety related medical systems, 2023.) Presently working on his own start up C2R at Hyderabad.</li><br>
+    
+        <li>Mr. Gaurav Sharma (Title of thesis: Anodal high definition transcranial direct current stimulation for Neurorehabilitation of Chronic Stress and Depression, 2021.) Presently working with National Brain Research Centre, Gurgaon.</li>
+        <br>
+        <li>Ms. Yashika Arora (Title of thesis: Neurovascular coupling and cerebrovascular reactivity through Near Infrared Spectroscopy, 2021.) Presently working with National Brain Research Centre, Gurgaon.</li>
+        <br>
+        <li>Ms. Swathi Ramasahayam (Title of thesis: Non-invasive estimation of blood parameters using fingertip photoplethysmography, 2018.) Presently working with Iowa Department of Public Health, USA.</li>
+    </ul>
+          
+</section>
+<section id="Students" class="section1">
+    <h2>Current Ph.D. Students</h2>
+    <section id="People" class="section">
+
+    <ul>
+        <li>Mr. Madhubabu Anumukonda (Area of research: High performance phonocardiography system.)</li><br>
+       <li> Mr. Kshitij Shakya (Area of research: Correlation studies on Cerebral and Cardiac Circulation.)</li><br>
+       <li> Ms. Bidisha Biswas (Area of research: Design and synthesis of albumin specific molecular probe via structural engineering.) (as Co-Guide) (Guide: Dr. Subrata Ghosh and another Co-Guide: Dr. Prosenjit Mondal)</li><br>
+       <li> Mr. Md.Najrul Islam (Area of research: Energy efficient and reconfigurable hardware accelerator for Deep Neural Network to be used for medical diagnostics.) (as Co-Guide) (Guide: Dr. Rahul Shrestha)</li><br>
+     <li>   Mr. Ankush Arya (Area of research: Therapy of anxiety, depression and clinical disorders through musopathy techniques.) (Co-guide: Dr. Varun Dutt)</li><br>
+      <li>  Mr. Yugal Pachori (Area of research: Development of a sensing system for identification of digital smell.) (Co-guide: Dr. Gopal Rawat)</li><br>
+      <li>  Mr. Vinod Srivastava (Area of research: Statistical techniques for detection and estimation of volatile compounds in a sensor array.) (Co-guide: Dr. Priyatosh Mahish)</li><br>
+     <li>   Mr. Biswajit Das (Area of research: Transcranial photobiomodulation techniques for therapy of anxiety, depression and clinical disorders.)</li><br>
+        
+    </ul>
+          
+</section>
+
+<section id="Students" class="section2">
+    <h2>Graduated M.S. Students</h2>
+    <section id="People" class="section">
+
+    <ul>
+        <li>Mr. Bodhayan Nandi (Title of thesis: Closed loop control of blood glucose level through simultaneous estimation of blood insulin and glucose, 2020.) Presently working at M/S GE Health Pvt. Ltd.</li>
+        <br>
+        <li>Ms. Snigdha Dagar (Title of thesis: A computational investigation on using the Excitation-Inhibition (E/I balance) mechanism to optimize tDCS protocol, 2020.) Presently working for her Ph.D at CERN, Switzerland.</li>
+        <br>
+        <li>Mr. Nikhil Bhandari (Title of thesis: FPGA Based High Performance Asynchronous Arithmetic Logic Unit and Asynchronous Finite State Machine Controller using Modified 4-Phase Handshaking Protocol, 2018. Co-Advisor: Dr. Rahul Shrestha.) Presently working with M/S Synopsys.</li>
+        <br>
+        <li>Mr. Soumitr Sanjay Dubey (Title of thesis: An FPGA Implementation of Digital Architecture to Estimate the Direction of Arrival for Adaptive Array Antenna Based on Matrix Pencil Technique, 2018. Co-Advisor: Dr. Rahul Shrestha.) Presently working with M/S Shipment.</li>
+        <br>
+        <li>Mr. Neeraj Paradkar (Title of thesis: Non-Invasive Diagnosis of Cardiac Arrhythmia and Coronary Artery Disease Through Fingertip Photoplethysmography, 2017.) Presently working with M/S Samsung Semiconductor India RnD Centre.</li>
+        <br>
+        <li>Mr. Anand Thati (Title of thesis: Development of a high-performance breath acetone sensing device, 2017. Co-advisor: Dr. Tapan Kumar Sau.) Presently working with M/S Eindhan Techsoft Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Anirban Guha (Title of thesis: ASIC design of a hybrid pipelined parallel digital fuzzy processor, 2017) Presently working with M/S Red Pine Signals.</li>
+        <br>
+        <li>Ms. Mehak Sood (Title of thesis: Studies on cortical excitability regulation and systemic interference effects of transcranial direct current stimulation, 2016.) Presently working with M/S Qualcomm India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Naman Govil (Title of thesis: Algorithms for High Performance Hardware-Software Partitioning, 2016. Co-Advisor: Dr. Rahul Shrestha.) Presently working with M/S Nvidia India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Utkarsh Jindal (Title of thesis: Development of Point of Care Testing Device for NIRS Based Online Imaging During Electric Brain Stimulation, 2016.) Presently working with M/S Practo Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Harsh Wardhan (Title of thesis: Electrical Modeling of Biological Cells and Generation of Biopotentials, 2016. Co-Advisor: Dr. Anubha Gupta.) Presently working with M/S Jaggu Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Kshitij Agrawal (Title of thesis: FPGA Based VLSI Architecture of Image Registration and Fusion of Multimodal Images for Surveillance Applications, 2015.) Presently working with M/S Intel Corporation Pvt. Ltd.</li>
+        <br>
+        <li>Ms. Himani Upadhyay (Title of thesis: Design of High Performance Arithmetic Circuits using Novel Two Transistor (2T) XOR gates, 2015.) Presently working with M/S Xilinx India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Varun Ramchandani (Title of thesis: Maximum power-point tracking of solar photovoltaic array using Kalman Filter, 2014.) Presently working with M/S Qualcomm India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Roopak Dubey (Title of thesis: FPGA based multi-robot reciprocal collision avoidance, 2014. Co-Advisor: Dr. K. Madhava Krishna.) Presently working with M/S Qualcomm India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. Neeraj Pradhan (Title of thesis: Two tier globally asynchronous locally synchronous architecture for collision avoidance algorithms, 2014. Co-Advisor: Dr. K. Madhava Krishna.) Presently working with M/S Amazon India Pvt. Ltd.</li>
+        <br>
+        <li>Mr. B.V.V. Prem Bhargav (Title of thesis: Memory constrained grid based Markov localization with lossless data compression techniques, 2013. Co-Advisor: Dr. K. Madhava Krishna.) Presently working with M/S Qualcomm India Pvt. Ltd.</li>
+        <br>
+        <li>Ms. Charvi Dhoot (Title of thesis: Probabilistic Computing for low power and high speed motion estimation architecture, 2012. Co-Advisor: Prof. Vincent J. Mooney.) Presently working with M/S Qualcomm India Pvt. Ltd.</li>
+    </ul>
+</section>
+<section id="Students" class="sectio1">
+    <h2>Current M.Tech(R) (earlier M.S.) Student</h2>
+    <section id="People" class="section">
+
+    <ul>
+        <li>Mr. Maha Vishnu (Area of research: Closed loop control of non invasive brain stimulation.)</li>
+        <li>Mr. Shreyas Soni (Area of research: Calibration of sensors in a sensor array for identification of volatile organic compounds.)</li>
+    </ul>          
+</section>
+
+
+<section id="Students" class="section2">
+    <h2>Graduated M.Tech Students</h2>
+    <section id="People" class="section">
+
+    <ul>  
+        <li>Mr. Tanay Srivastava (Title of dissertation: Two Phase Handshaking Protocol Based Asynchronous Pipeline Processor for Low Power Applications, M.Tech (VLSI), 2023.)</li><br>
+        <li>  Mr. Hitarth Patel (Title of dissertation: High speed EEG signal compression using multi-core processor, M.Tech (VLSI), 2023.)</li><br>
+        <li>    Mr. Arjun Saha (Title of dissertation: Fail-Safe Systems based on Multi-Core Reconfigurable Architecture, M.Tech (VLSI), 2023.)</li><br>
+        <li>Ms. Pritiksha Chand (Title of dissertation: Development of a Circuit Model for Neurovascular Coupling, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Md. Mushfiqur Rahaman Chowdhury (Title of dissertation: Development of FPGA-based lossless compressor circuit for compression of EEG signals, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Ms. Kashmira Dey (Title of dissertation: Inverse neurovascular coupling and associated spreading depolarization models for traumatic brain injury, M.Tech (Biotechnology), 2021.)</li>
+        <br>
+        <li>Mr. Tejas Kumar Hoizal (Title of dissertation: Automotive grade built-in self-test IP design for on-chip memories, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Ajay Chauhan (Title of dissertation: High PSRR low dropout regulator, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Shashank Mourya (Title of dissertation: Readout interface amplifier for NIRS and PPG readings, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Vipin Kumar (Title of dissertation: Architectural design for computation of transcendental function, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Amit Sahu (Title of dissertation: Coarse-grained reconfigurable architecture for non-linear function computation, M.Tech (VLSI), 2021.)</li>
+        <br>
+        <li>Mr. Anirban Banerjee (Title of dissertation: Mathematical modeling of Neurovascular Coupling: Molecular and System Level Approach, M.Tech (Biotechnology), 2020.)</li>
+        <br>
+        <li>Mr. Sompal Singh (Title of dissertation: Signal Processing aspects of neurovascular coupling, M.Tech (CSP), 2020.)</li>
+        <br>
+        <li>Mr. Ashish Tiwari (Title of dissertation: Low noise low power instrumentation amplifier for full-band EEG, M.Tech (VLSI), 2020.)</li>
+        <br>
+        <li>Mr. Shakti Singh (Title of dissertation: Design of a low leakage low voltage high density 6T SRAM, M.Tech (VLSI), 2020.)</li>
+        <br>
+        <li>Mr. Karunanidhan Pandey (Title of dissertation: Low noise low power instrumentation amplifier for EEG signal acquisition, M.Tech (VLSI), 2019.)</li>
+        <br>
+        <li>Late Mr. Muneeb Sulthan P.P. (Title of dissertation: Design of a power-efficient pulse latch circuit as a solution for Master-Slave Flip Flop, M.Tech (VLSI), 2019.)</li>
+        <br>
+        <li>Mr. Om Karwal (Title of dissertation: FPGA Based parallelized Architecture for Near Infrared Spectroscopy Based Identification of Ischemic Stroke Patients, M. Tech (CSP), 2019.)</li>
+        <br>
+        <li>Mr. Prateek Kumar Sonker (Title of dissertation: Non-invasive photoplethysmographic system to monitor blood hemoglobin, M.Tech (VLSI), 2018.)</li>
+        
+    </ul>
+</section>
+<section id="Students" class="section2">
+    <h2>Current M.Tech Students</h2>
+    <section id="People" class="section">
+
+    <ul>  
+       <li>Mr. Tanay Srivastava (Area of dissertation work: Asynchronous processor architecture.)</li>
+       <br>     
+       <li>Mr. Hitarth Patel (Area of dissertation work: Reconfigurable computing through Polymorphic Instruction Set.)</li>
+       <br>
+       <li>Mr. Arjun Saha (Area of dissertation work: Coarse Grained Reconfigurable Architecture.)</li>
+        </li>
+    </ul>
+          
+</section>
+
